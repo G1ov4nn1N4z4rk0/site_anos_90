@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compre seu carro do estilo e moledo que quer</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+        <h1 id="titulo">Coloque seu carro a venda <br> venha conhecer GCAR </h1>
+
+        <div id="divantigo" class="alinhamento">
+            <div class="alinhamento2">
+                <img id="toreto" src ="img/carro1.jpg" alt="">
+                <p> CHEVY IMPALA</p>
+            </div>
+
+            <div class="alinhamento2">
+                <img id="gol quadrado" src="img/carro2.jpg">
+                <p>GOL QUADRADO</p>
+            </div>
+         
+         
+        </div> 
+        
+        <div id="divnovo" class="alinhamento">
+            <div id="imgPanemra" class="alinhamento2">
+                <img src="img/panemera.webp" alt="">
+                <p>PORSHE PANAMERA</p>
+            </div>
+            <div class="alinhamento2">
+                <img src="img/urus.jpg" alt="">
+                <p>LAMBORGUINI URUS</p>
+            </div>
+         
+         
+        </div>
+        
+        <button id="bntmudar" onclick="atualizar()">2024</button>
+
+     <script>
+        function atualizar(){
+            document.getElementById("divantigo").style.display = "none"
+            document.getElementById("divnovo").style.display = "flex"
+
+            document.querySelector("body").style.backgroundColor = "black"
+
+            document.getElementById("titulo").style.color = "white"
+            document.getElementById("titulo").innerHTML = "Os melhores carros voce encontra <br/>na GCAR !"
+
+
+            document.getElementById("bntmudar").style.backgroundColor = "black"
+            document.getElementById("bntmudar").style.color = "white"
+            document.getElementById("bntmudar").style.border = "none"
+            document.getElementById("bntmudar").style.fontSize = "50px"
+
+        }
+     </script>
+</body>
+
+</html>

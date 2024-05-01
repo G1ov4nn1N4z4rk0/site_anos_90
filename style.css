@@ -1,0 +1,63 @@
+
+h1{
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    
+    color: brown;
+
+}
+
+.alinhamento{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.alinhamento2{
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+img{
+    width: 40%;
+}
+
+#idorus{
+    width: 38%;
+}
+
+#divnovo{
+    display: none;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#divnovo img{
+    border: 1px solid white;
+    border-radius: 15px;
+    box-shadow: 1px 1px 15px white;
+    
+}
+
+#divantigo img{
+    border:1px solid black ;
+    border-radius: 15px;
+    box-shadow:1px 1px 15px black ;
+}
+
+#toreto{
+    width: 50%;
+}
+
+#imgPanemra{
+    width: 100%;
+}
